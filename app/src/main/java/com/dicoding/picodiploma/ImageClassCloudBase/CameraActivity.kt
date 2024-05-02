@@ -1,4 +1,4 @@
-package com.dicoding.picodiploma.mycamera
+package com.dicoding.picodiploma.ImageClassCloudBase
 
 import android.content.Intent
 import android.os.Build
@@ -16,7 +16,7 @@ import androidx.camera.core.ImageCaptureException
 import androidx.camera.core.Preview
 import androidx.camera.lifecycle.ProcessCameraProvider
 import androidx.core.content.ContextCompat
-import com.dicoding.picodiploma.mycamera.databinding.ActivityCameraBinding
+import com.dicoding.picodiploma.ImageClassCloudBase.databinding.ActivityCameraBinding
 
 // Manhandle CameraX dalam aplikasi
 class CameraActivity : AppCompatActivity() {

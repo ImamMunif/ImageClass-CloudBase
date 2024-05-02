@@ -1,4 +1,4 @@
-package com.dicoding.picodiploma.mycamera
+package com.dicoding.picodiploma.ImageClassCloudBase
 
 import android.Manifest
 import android.content.Intent
@@ -14,10 +14,10 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.content.ContextCompat
 import androidx.core.net.toUri
 import androidx.lifecycle.lifecycleScope
-import com.dicoding.picodiploma.mycamera.CameraActivity.Companion.CAMERAX_RESULT
-import com.dicoding.picodiploma.mycamera.data.api.ApiConfig
-import com.dicoding.picodiploma.mycamera.data.api.FileUploadResponse
-import com.dicoding.picodiploma.mycamera.databinding.ActivityMainBinding
+import com.dicoding.picodiploma.ImageClassCloudBase.CameraActivity.Companion.CAMERAX_RESULT
+import com.dicoding.picodiploma.ImageClassCloudBase.data.api.ApiConfig
+import com.dicoding.picodiploma.ImageClassCloudBase.data.api.FileUploadResponse
+import com.dicoding.picodiploma.ImageClassCloudBase.databinding.ActivityMainBinding
 import com.google.gson.Gson
 import kotlinx.coroutines.launch
 import okhttp3.MediaType.Companion.toMediaType

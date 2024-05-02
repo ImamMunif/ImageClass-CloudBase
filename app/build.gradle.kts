@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "com.dicoding.picodiploma.mycamera"
+    namespace = "com.dicoding.picodiploma.ImageClassCloudBase"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.dicoding.picodiploma.mycamera"
+        applicationId = "com.dicoding.picodiploma.ImageClassCloudBase"
         minSdk = 24
         targetSdk = 34
         versionCode = 1
@@ -32,6 +32,7 @@ android {
     }
     buildFeatures {
         viewBinding = true
+        buildConfig = true
     }
 }
 
